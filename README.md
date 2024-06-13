@@ -2,7 +2,7 @@
 ================
 
 let a=1;// declaring a variable and intializing the 
-let b=3
+
 
 let x=1;
 console.log(x);////1
