@@ -31,8 +31,14 @@ console.log(myName);
 console.log(typeof(myName));
 
 
-
-
+Solution:
+1
+20
+1
+123
+23
+Surya
+string
 
 
 
