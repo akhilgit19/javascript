@@ -1,9 +1,11 @@
 # javascript
 ================
+declaring a variable and intializing
+=============================================
+let a=1;// declaring a variable and intializing
 
-let a=1;// declaring a variable and intializing the 
-
-
+reassiging the value of x
+===========================
 let x=1;
 console.log(x);////1
 x=20;// reassiging the value of x
@@ -16,22 +18,25 @@ console.log(number);///1
 number=123;
 console.log(number)//123- reassiging the value of x
 
+ConstVariable
+================
 const numbers =23;
 console.log(numbers);///23
 //
 //numbers=24;
 //console.log(numbers);/// Cannot reasssing to const variable
 
-
+Typeof
+========
 let myName="Surya";
 
 console.log(myName);
-
 
 console.log(typeof(myName));
 
 
 Solution:
+===========
 1
 20
 1
@@ -47,25 +52,33 @@ let number = 12345;
 console.log(number);
 
 //CamelCase
+==============
 let thisIsMyAnimeeName = "goku";
 
 console.log(thisIsMyAnimeeName);
 
 //snakecasse
-
+==============
 let this_is_my_goku_name = "vegu";
 
 console.log(this_is_my_goku_name);
 
 // a variable name can only contain alpha-numeric and underscore
+==================================================================
 
 //(a-z),(A-Z),(0-9),(_)
 
+$
+===
 let $name = "goku";
 
+_
+===
 let _name1 = "vegeta";
 console.log($name);
 
+Mathemitacal Operators
+========================
 let a = 1;
 
 let b = 2;
@@ -78,7 +91,8 @@ console.log("div is ", a / b);
 console.log(10 % 2);
 console.log(1 % 100000000);
 
-~/Mathematical-Operators$  node problem.js
+~/Mathematical-Operators$ node problem.js
+
 12345
 goku
 vegu
@@ -90,21 +104,22 @@ div is  0.5
 0
 1
 
-
+**
+====
 let a =2
-
 let b=3
 console.log("mul is",a**b);
 
 
 let x=16;
-
 console.log(x**0.5)
 
 ~/Mathematical-Operators$ node problem2.js
 mul is 8
 4
 
+Contactenation
+================
 let a = "Hello";
 let b ="World";
 
@@ -115,8 +130,9 @@ console.log(a+" "+b);
 Hello  World
 Hello World
 
+Boolean
+==========
 let married = false;
-
 console.log(married);
 
 let driving_license = true;
