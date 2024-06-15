@@ -91,6 +91,8 @@ console.log("div is ", a / b);
 console.log(10 % 2);
 console.log(1 % 100000000);
 
+Solution:
+===========
 ~/Mathematical-Operators$ node problem.js
 
 12345
@@ -114,6 +116,8 @@ console.log("mul is",a**b);
 let x=16;
 console.log(x**0.5)
 
+Solution:
+===========
 ~/Mathematical-Operators$ node problem2.js
 mul is 8
 4
@@ -125,6 +129,9 @@ let b ="World";
 
 console.log(a,"",b);
 console.log(a+" "+b);
+
+Solution:
+===========
 
 ~/Mathematical-Operators$ node problem3.js
 Hello  World
@@ -151,6 +158,8 @@ console.log(gender);
 console.log(has_driving_license);
 console.log(citizen_of_india);
 
+Solution:
+===========
 ~/Mathematical-Operators$ node problem4.js
 false
 akhil
@@ -160,6 +169,79 @@ true
 true
 
 
+let a = 5;
+let b = 5;
+let c = 5;
+
+let d = "Hello\n";
+let e = "world";
+
+//Create 3 varialbed do the square of the variable and sum of them
+
+console.log(a ** 2 + b ** 2 + c ** 2); //75
+
+console.log(d + e);
+
+Solution:
+===========
+
+~/Mathematical-Operators$ node problem5.js
+75
+Hello
+world
 
 
+Relation Operators:
+====================
+let gokuHeight=6;
 
+let vegitaHeight=5;
+//Relational Operators
+//a>b
+//a<b
+//a>=b
+//a<=b
+
+
+console.log(gokuHeight>vegitaHeight);
+console.log(11>5);
+console.log(11>=5);
+
+Solution:
+===========
+~/Mathematical-Operators$ node problem6.js
+true
+true
+true
+
+
+Comaparison Operators:
+========================
+
+//There are 4 comparision operators
+
+//double equal  to (==)
+
+// not equal to (!=)
+// triple equal to (===) it will check for value and // // datat type
+// not triple euqal to(!==)
+
+let a = "2";
+let b = 2;
+console.log(a == b); /// checks for the value
+console.log(a != b); /// reverse of a==b
+console.log(a === b); // checks for the value and data type
+console.log(a !== b); // reverse of a===b
+
+// relational operators
+// //<,>,>=,<=
+// Comparision operators
+// //==,!=,===,!==
+
+Solution:
+===========
+~/Mathematical-Operators$ node problem7.js
+true
+false
+false
+true
