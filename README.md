@@ -250,6 +250,9 @@ true
 Conditional Statement
 ========================
 
+ifelsecondition
+==================
+
 console.log("homework problem");
 let homework = true;
 
@@ -313,3 +316,46 @@ Normal Comparsion operator problem
 it is equal
 y is greater
 i cant buy
+
+elseif condition
+==================
+let a=2;
+let b=2;
+
+if(a>b){
+  console.log("a is greater");
+  
+}
+else if(a<b){
+  console.log("b is greater");
+  
+}
+
+else{
+  console.log("a and b are same")
+}
+
+
+
+
+let trafficLight="red";
+
+if(trafficLight == "red"){
+  console.log("stop");
+}
+else if(trafficLight=="green"){
+  console.log("go");
+}
+else if(trafficLight=="yellow"){
+  console.log("be ready");
+  
+}
+else{
+  console.log("there is no light");
+}
+
+Solution
+============
+~/Mathematical-Operators$ node problem9.js
+a and b are same
+stop
