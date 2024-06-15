@@ -245,3 +245,61 @@ true
 false
 false
 true
+
+
+Conditional Statement
+========================
+
+console.log("homework problem");
+let homework = true;
+
+if(homework){
+  console.log("I am allowed to play");
+  
+}
+
+console.log("brush problem");
+
+let brush =false;
+
+if(brush){
+   console.log("I am allowed to play");
+}
+
+else{
+   console.log("Im not allowed to play");
+}
+
+console.log("Normal Comparsion operator problem");
+if ("5"==5){
+  console.log("it is equal");
+}
+else{
+  console.log("not equal");
+  
+}
+
+
+let x=2;
+
+let y=3;
+
+if(x>y){
+  console.log("x is greateer");
+}
+else{
+  console.log("y is greater");  
+}
+
+
+let moneyIHave=500;
+let itemPrice=1000;
+
+if (moneyIHave>=itemPrice){
+  console.log("I can buy the item");
+}
+else{
+  console.log("i cant buy");
+}
+
+
