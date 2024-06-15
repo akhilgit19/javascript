@@ -302,4 +302,14 @@ else{
   console.log("i cant buy");
 }
 
-
+Solution:
+==========
+~/Mathematical-Operators$ node problem8.js
+homework problem
+I am allowed to play
+brush problem
+Im not allowed to play
+Normal Comparsion operator problem
+it is equal
+y is greater
+i cant buy
