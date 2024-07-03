@@ -359,3 +359,103 @@ Solution
 ~/Mathematical-Operators$ node problem9.js
 a and b are same
 stop
+
+
+Example 2:
+------------
+let superMarket="colgate";
+
+if(superMarket=="colgate"){
+  console.log("please give me colgate");
+}
+else if(superMarket=="closeup"){
+  console.log("please give me closeup");
+}
+else if(superMarket=="dabur"){
+  console.log("please give me dabur");
+}
+else{
+  console.log("do not buy an other toothpaste");
+}
+
+Example:2 
+-------------
+let bill=110000;
+
+if(bill>=1000){
+  console.log("20% dis");
+}
+else if(bill>=500){
+  console.log("10% dis");
+}
+else if(bill<500){
+  console.log("no dis");
+}
+else{
+  console.log("please make more than 500 rs to get dis");
+}
+
+Solution:
+----------
+~/Mathematical-Operators$ node problem10.js
+please give me colgate
+20% dis
+
+
+
+Logical Operators:
+=========================
+Type of logical operator
+1. Logical AND Operator
+2. Logical OR operator
+
+
+console.log(1 > 1 && 1 > 0);
+console.log("naveen" == "navya" && "surya" == "flm");
+console.log(1 == 1 && 2 == 2 && 3 == 3);
+
+let a = true;
+let b = false;
+
+console.log(a || b);
+
+Solution:
+---------
+~/Mathematical-Operators$ node problem11.js
+false
+false
+true
+true
+
+
+Terinary Operator:
+======================
+
+
+let m = 2;
+
+m % 2 == 0 ? console.log("even number") : console.log("even number");
+
+let v = "5";
+
+v === 5 ? console.log("names are same") : console.log("names are diff");
+
+let y = 2;
+let u = 2;
+
+y > u
+  ? console.log("y is gre")
+  : u > y
+    ? console.log("u is great")
+    : console.log("both are equal");
+
+
+Solution:
+-----------
+~/Mathematical-Operators$ node problem11.js
+
+
+even number
+names are diff
+both are equal
+~/Mathematical-Operators$
