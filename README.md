@@ -459,3 +459,90 @@ even number
 names are diff
 both are equal
 ~/Mathematical-Operators$
+
+
+Logicatl Operators 2:
+==========================
+
+let requiredToothPaste="colgate";
+
+if((requiredToothPaste=="colgate") ||(requiredToothPaste=="dabur") ||
+(requiredToothPaste=="peposodent")){
+  console.log("i can buy a toothpaste");
+}
+else{
+  console.log("toothpaste is not avaialble");
+}
+
+let a =100 ;
+let b=100;
+let c=100;
+
+// if(a>b && a>c){
+//   console.log("a is greatest");
+// }
+// else if(b>a && b>c){
+//   console.log("b is greatest");
+// }
+// else{
+//   console.log("c is greatest");
+// }
+
+(a>b && a>c)? console.log("a is greatest") : (b>a && b>c)?
+  console.log("b is greatest") :  (c>a && c>b)? console.log("c is greates") : console.log("all are equal");
+
+
+let gender="male";
+
+let age=20;
+
+// if((gender=="male" && age>=20) ||(gender=="female" && age>=18)  ){
+//   console.log("you can marry");
+// }
+// else{
+//   console.log("you can't marrt");
+// }
+
+
+
+((gender=="male" && age>=20) ||(gender=="female" && age>=18)  )?  console.log("you can marry") : console.log("you can't marrt")
+
+
+
+Solution:
+=============
+~/Mathematical-Operators$ node problem12.js
+i can buy a toothpaste
+all are equal
+you can marry
+~/Mathematical-Operators$ 
+
+
+Problem:
+-----------
+let char = "a";
+
+if (char == "a" || char == "e" || char == "i" || char == "0" || char == "u") {
+  console.log("it is a vowel");
+} else {
+  console.log("it is a consonant");
+}
+
+let yearOfBirth = 1998;
+
+let age = 2024 - yearOfBirth;
+
+if (age >= 13 && age <= 19) {
+  console.log("teenage");
+} else if (age >= 20 && age <= 29) {
+  console.log("twenties");
+} else {
+  console.log("old age");
+}
+
+Solution:
+===========
+~/Mathematical-Operators$ node problem13.js
+it is a vowel
+twenties
+
